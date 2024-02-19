@@ -32,7 +32,7 @@ function sendUDPDatagram(serverUrl, numInvocations) {
 }
 
 // Parameters
-const numInvocations = 5; // Number of invocations to calculate average response time
+const numInvocations = 10; // Number of invocations to calculate average response time
 
 // Call function to send UDP datagram
 sendUDPDatagram('pfmsqosprod2-0.centralus.cloudapp.azure.com', numInvocations);
